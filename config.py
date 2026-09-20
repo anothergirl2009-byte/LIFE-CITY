@@ -3,7 +3,7 @@ import os
 # ADMIN / OWNER
 # ============================================================
 OWNER_ID = 8473872336
-BOT_TOKEN = os.environ["8812109866:AAGmDp6MNpGXmH5IUcekoNfhvzv2VfT5yz4"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 DB_DIR = os.path.join(os.path.dirname(__file__), "data")
 os.makedirs(DB_DIR, exist_ok=True)
 DB_PATH = os.path.join(DB_DIR, "lifecity.db")
